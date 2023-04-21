@@ -2,7 +2,7 @@ import React from 'react'
 
 const menware = () => {
   return (
-    <div className="grid grid-cols-4 w-full h-[50rem] gap-3">
+    <div className="grid grid-cols-4 w-full h-[35rem] gap-3">
 
          <div className="text-center m-4 h-min rounded-3xl shadow-xl hover:bg-gray-100">
           <img src="https://static-01.daraz.pk/p/3326009faa3c006dcb7aa929ee810945.jpg_720x720.jpg_.webp" alt=""/>
@@ -34,6 +34,7 @@ const menware = () => {
           <p>premium design, hig quality materials and stiching 1 year official warranty by brand</p>
          <p className="text-green-800 text-xl m-2 font-bold">50$</p>
           <button className="bg-blue-200 hover:bg-blue-600 hover:text-white p-2 rounded-xl m-2">Add to Cart</button>
+
         </div>
     </div>
   )
