@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
-import { Link } from "react-router-dom";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import BackButton from "../components/BackButton";
 const contact = () => {
   return (
     <div>
       <Header />
-     <button  className="w-[5rem] h-[5rem] m-4 outline outline-gray-400 rounded-2xl p-2"> <Link to={'/'}><img src="https://cdn-icons-png.flaticon.com/512/0/340.png" alt="img"></img></Link></button>
+      <BackButton/>
      <h1 className="font-bold text-2xl text-center">We are here to help you</h1>
       <div className="grid grid-cols-4 mb-[5rem]">
         <div className="text-center m-10 h-min rounded-3xl border-gray-400 border-2 outline outline-gray-400">

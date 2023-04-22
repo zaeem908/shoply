@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Header from './header'
-import Menware from './menware'
-import Electronics from './electronics'
-import Cosmetics from './cosmetics'
-import GraphicsCards from './GraphicsCards'
-import Footer from './footer'
-import BestSellers from './bestSellers'
+import Header from '../components/header'
+import Menware from '../components/menware'
+import Electronics from '../components/electronics'
+import Cosmetics from '../components/cosmetics'
+import GraphicsCards from '../components/GraphicsCards'
+import Footer from '../components/footer'
+import BestSellers from '../components/bestSellers'
 import { Link } from 'react-router-dom'
 
 const Categories = () => {

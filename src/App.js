@@ -1,8 +1,9 @@
-import Main from "./main";
-import Contact from "./contact";
+import Main from "../src/pages/main";
+import Contact from "../src/pages/contact";
 import { Route,Routes } from "react-router-dom";
-import AllProducts from "./AllProducts";
-import Categories from "./Categories";
+import AllProducts from "../src/pages/AllProducts";
+import Categories from "../src/pages/Categories";
+
 function App() {
   return (
     <div className="App">

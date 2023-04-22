@@ -1,6 +1,6 @@
 import React from 'react'
-import Electronics from "./electronics";
-import Menware from "./menware";
+import Electronics from '../components/electronics'
+import Menware from "../components/menware";
 
 const bestSellers = () => {
   return (
